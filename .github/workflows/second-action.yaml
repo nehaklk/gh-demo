@@ -5,8 +5,8 @@ jobs:
   first-job: 
     runs-on: ubuntu-slim
     steps:
-      name: greet
-      run: |
+    -  name: greet
+       run: |
         echo "Hi"
         echo "hry"
       
